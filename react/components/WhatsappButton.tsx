@@ -11,7 +11,7 @@ type Props ={
 
 const WhatsappButton = ({logo, phone, message, width, height}: Props) => {
   const formattedMessage = message.replace(/ /g, "%20");
-  console.log("Mi mensaje formateado es ", formattedMessage, logo)
+
   return <>
     <div className="fixed bottom-2 right-2 flex flexColumn">
       <a
