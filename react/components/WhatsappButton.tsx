@@ -38,7 +38,7 @@ WhatsappButton.propTypes = {
 }
 WhatsappButton.defaultProps = {
   logo: "mi-logo.png",
-  phone: "3004507575",
+  phone: "3165166685",
   message: "estas comuinicandote con itg por favor ingresa tu duda",
   width: 80,
   height:80
