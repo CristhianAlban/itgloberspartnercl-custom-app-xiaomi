@@ -3,7 +3,7 @@
   "name": "whatsapp-button",
   "version": "0.0.1",
   "title": "Whatsapp Button Component",
-  "description": "Bot{on de componente para whatsApp que recibirá un teléfono, un logo y un mensaje",
+  "description": "Boton de componente para whatsApp que recibirá un teléfono, un logo y un mensaje",
   "builders": {
     "react": "3.x",
     "messages": "1.x",

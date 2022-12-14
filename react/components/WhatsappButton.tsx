@@ -16,22 +16,20 @@ const WhatsappButton = ({logo, phone, message, width, height}: Props) => {
   const handles = useCssHandles(CSS_HANDLES)
 
   return <>
-    <div className="fixed bottom-2 right-2 flex flexColumn">
-      <div className={handles.button__container}>
-        <a
-          href= {`https://wa.me/${phone}?text=${formattedMessage}`}
-          target= "_blank"
-          rel="noreferrer noopener"
-        >
-          <img
-            className={handles.image}
-            src={logo}
-            width={width}
-            height={height}
-            alt="Logo de WhatsApp"
-          />
-        </a>
-      </div>
+    <div className={`${handles.button__container} fixed bottom-2 right-2 flex flexColumn`}>
+      <a
+        href= {`https://wa.me/${phone}?text=${formattedMessage}`}
+        target= "_blank"
+        rel="noreferrer noopener"
+      >
+        <img
+          className={handles.image}
+          src={logo}
+          width={width}
+          height={height}
+          alt="Logo de WhatsApp"
+        />
+      </a>
     </div>
   </>
 }
